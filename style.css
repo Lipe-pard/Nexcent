@@ -216,38 +216,31 @@
 
 #about{
     display: flex;
-    justify-content: space-around;
-    margin: 2rem 0;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    gap: 10%;
 }
 
 #about div{
-    width: 40%;
+    width: 35%;
 }
 
-#ilustration-about{
-    display: flex;
-    justify-content: end;
-}
-
-#about-info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#about img{
+    width: 25%;
 }
 
 #about h1{
-    width: 80%;
+    font-size: 2.5rem;
 }
 
 #about p{
     margin: 2rem 0;
-    width: 80%;
 }
 
 #about button{
     padding: 1rem 2rem;
     font-weight: 600;
-    width: 20%;
 }
 
 /* Analytical Data */
@@ -288,22 +281,25 @@
 
 #about-footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding: 2rem 0;
+    gap: 10%;
+}
+
+#about-footer img{
+    width: 25%;
 }
 
 #about-footer div{
-    width: 40%;
+    width: 35%;
 }
 
 #about-footer h1{
-    font-size: 2rem;
-    width: 70%;
+    font-size: 2.5rem;;
 }
 
 #about-footer p{
-    width: 70%;
     margin: 1rem 0;
 }
 
@@ -313,30 +309,51 @@
     margin: 2rem 0;
 }
 
-#ilustration-about-footer{
-    display: flex;
-    justify-content: end;
-}
-
 /* Coments */
 
 #coments{
     background-color: var(--Silver);
     padding: 2rem 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 5%;
 }
 
-#coments div{
-    width: 30%;
+#coments img{
+    width: 20%;
 }
 
-#coment-image{
-    background-image: url('https://images.unsplash.com/photo-1612810806563-4cb8265db55f?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    width: 20rem;
-    height: 30rem;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 2rem;
+#coment-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 40%;
 }
+
+#coments h3{
+    font-size: 1.2rem;
+    margin: 1rem 0 0.5rem 0;
+}
+
+#coments span{
+    color: var(--L_Grey);
+}
+
+#list-logo-client{
+    display: flex;
+    margin: 3.5rem 0 0 0;
+    gap: 2rem;
+    align-items: center;
+}
+
+#list-logo-client img{
+    width: 3rem;
+}
+
+#list-logo-client a{
+    text-decoration: none;
+    color: var(--Primary);
+    font-weight: 600;
+}
+
