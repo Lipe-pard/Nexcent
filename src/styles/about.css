@@ -1,0 +1,28 @@
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    gap: 10%;
+}
+
+#about div{
+    width: 35%;
+}
+
+#about img{
+    width: 25%;
+}
+
+#about h1{
+    font-size: 2.5rem;
+}
+
+#about p{
+    margin: 2rem 0;
+}
+
+#about button{
+    padding: 1rem 2rem;
+    font-weight: 600;
+}

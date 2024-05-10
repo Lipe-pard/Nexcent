@@ -1,0 +1,45 @@
+#coments{
+    background-color: var(--Silver);
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+#coments img{
+    width: 20%;
+}
+
+#coment-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 40%;
+}
+
+#coments h3{
+    font-size: 1.2rem;
+    margin: 1rem 0 0.5rem 0;
+}
+
+#coments span{
+    color: var(--L_Grey);
+}
+
+#list-logo-client{
+    display: flex;
+    margin: 3.5rem 0 0 0;
+    gap: 2rem;
+    align-items: center;
+}
+
+#list-logo-client img{
+    width: 3rem;
+}
+
+#list-logo-client a{
+    text-decoration: none;
+    color: var(--Primary);
+    font-weight: 600;
+}
